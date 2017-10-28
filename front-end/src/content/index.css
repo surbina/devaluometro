@@ -1,0 +1,20 @@
+.content {
+    margin: 0 auto;
+    padding: 0 2em;
+    max-width: 800px;
+    margin-bottom: 50px;
+    line-height: 1.6em;
+}
+
+.content-subhead {
+    margin: 50px 0 20px 0;
+    font-weight: 300;
+    color: #888;
+}
+
+@media (min-width: 48em) {
+  .content {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}
